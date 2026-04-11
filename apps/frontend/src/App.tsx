@@ -1819,7 +1819,7 @@ export default function App() {
                     void startCheckout();
                   } }
                   disabled={ !hasCheckoutItems || isBusy }
-                  className="rounded-full bg-yellow-400 px-4 py-2 text-sm font-semibold text-slate-900 transition hover:brightness-95 disabled:cursor-not-allowed disabled:opacity-50 dark:bg-yellow-300 dark:text-slate-900"
+                  className="rounded-full bg-accent-light px-4 py-2 text-sm font-semibold text-white transition hover:brightness-95 disabled:cursor-not-allowed disabled:opacity-50 dark:bg-accent-dark dark:text-slate-900"
                 >
                   <span className="sm:hidden">Pay ({ currencyFormatter.format(cartExternalDuePreview) })</span>
                   <span className="hidden sm:inline">Pay ({ currencyFormatter.format(cartExternalDuePreview) })</span>
